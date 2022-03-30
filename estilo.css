@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+
+
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #ff6e7f, #bfe9ff 85.61%)
+    
+}
+
+.cabeçalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    
+
+
+}
+
+.cabeçalho-imagem {
+    border-radius: 25px;
+
+
+    
+}
+
+.cabeçalho-menu {
+    display: flex;
+    gap: 200px;
+    
+    
+
+}
+
+.cabeçalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+
+}
+
+.cabeçalho-menu-item-entrar {
+    font-family: 'Sarala', sans-serif;
+    color:#fff2e7;
+    font-weight: 400;
+    font-size: 18px;
+    text-align: right;
+    font-weight: bold;
+    
+ }
+
+
+
+#nav_bar #Cadastro {
+    background-color: #53afec;
+    margin-right: 25px;
+    padding: 7px 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    list-style: none;
+    font-family: 'Sarala', sans-serif;
+    
+}
+
+
+
+
+
+.conteúdo {
+    border-top: 0.4px solid #fff2e7;
+    margin-bottom: 48px;
+
+
+}
+
+.conteúdo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+.conteúdo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+
+.conteúdo-principal-escrito-Titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 64px;
+    color: #fff2e7;
+
+}
+
+.conteúdo-principal-escrito-subtitulo {
+    font-family: 'Sarala', sans-serif; 
+    font-weight: 400;
+    font-size: 24px;
+    color: #ECD6C4;
+
+}
+
+.conteúdo-principal-escrito-botão{
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0,25);
+    border-radius: 20px;
+    font-family: 'Sarala', sans-serif; 
+    font-weight: 400;
+    font-size: 19px;
+    color: #2f2325;
+    text-decoration: none;
+    
+
+
+}
+
+.link{
+    text-decoration: none;
+    color:black;
+    
+}
+
+
+.conteúdo-principal-escrito-botão:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.conteúdo-principal-imagem {
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 58px;
+    
+
+}
+
+.conteúdo-secundário {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+
+
+}
+
+.conteúdo-secundário-Título {
+    border-top: 0.4px solid #fff2e7;
+    padding-top: 48px;
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff2e7;
+    margin-bottom: 16px;
+
+
+}
+
+.conteúdo-secundário-paragrafo {
+    font-family: 'Sarala', sans-serif; 
+    font-weight: 300;
+    font-size: 18px;
+    color: #ECD6C4;
+
+}
+
+.rodapé {
+    padding: 32px;
+    border-top: 0.4px solid #fff2e7;
+
+}
+
+
+.rodapé-imagem {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+.image-card {
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 1rem;
+    width: 240px;
+    height: 320px;
+    padding: 8px;
+    border-radius: 1rem;
+    background: url("https://img.myloview.com.br/adesivos/quadro-de-foto-de-presente-lindamente-embalado-em-papel-kraft-400-114078268.jpg");
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+  }
+  
+  .perspective-left {
+    transform: perspective(1500px) rotateY(15deg);
+    transition: transform 1s ease 0s;
+  }
+  
+  .perspective-left:hover {
+    transform: perspective(3000px) rotateY(5deg);
+  }
+  
+  .perspective-right {
+    transform: perspective(1500px) rotateY(-15deg);
+    transition: transform 1s ease 0s;
+  }
+  
+  .perspective-right:hover {
+    transform: perspective(3000px) rotateY(-5deg);
+  }
+  
+
+ .produtos {
+     text-align: center;
+     font-family: 'Righteous', cursive;
+     font-weight: 300;
+     font-size: 30px;
+     color: #fff2e7;
+
+ }
+
+ a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+ 
+
+
+ 
